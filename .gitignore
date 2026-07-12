@@ -1,0 +1,35 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Generated / build output
+bin/
+gen/
+out/
+build/
+.gradle/
+release/
+
+# Local machine config (contains your SDK path — never commit this)
+local.properties
+
+# IDE files
+*.iml
+.idea/
+.DS_Store
+.kotlin/
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Signing keys — NEVER commit these
+*.jks
+*.keystore
+
+# Firebase / Google Services
+google-services.json

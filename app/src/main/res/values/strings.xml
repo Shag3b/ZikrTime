@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Zikr Time</string>
+
+    <string name="home_title">Zikr Time</string>
+    <string name="morning_button">Morning Azkar</string>
+    <string name="evening_button">Evening Azkar</string>
+
+    <string name="done_title">Completed, Alhamdulillah</string>
+    <string name="done_message">You have completed the Evening Azkar. May Allah accept it from you</string>
+    <string name="app_ready">App is now available for normal use</string>
+    <string name="back_home">Return to Home</string>
+
+    <string name="home_welcome">Welcome to ZikrTime App</string>
+    <string name="home_description">An app to help you recite Morning and Evening Azkar at their designated times</string>
+    <string name="morning_azkar_time">Morning Azkar are from Fajr to Dhuhr, Evening Azkar are from Asr to Maghrib</string>
+    <string name="fajr_dhuhr">Fajr - Dhuhr</string>
+    <string name="asr_maghrib">Asr - Maghrib</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="repeat_left">Remaining:</string>
+    <string name="total_count">Total:</string>
+    <string name="show_meaning">Meaning</string>
+    <string name="show_franco">Franco</string>
+    <plurals name="wait">
+        <item quantity="one">Wait %1$d second</item>
+        <item quantity="other">Wait %1$d seconds</item>
+    </plurals>
+
+    <string name="zikr_counter">Zikr %1$d of %2$d</string>
+    <string name="decrease_counter">Decrease Count</string>
+
+    <string name="choose_language">Choose Language</string>
+
+    <!-- Notification strings -->
+    <string name="notification_incomplete">Azkar not completed yet</string>
+    <string name="notification_reminder">Time to read Azkar</string>
+    <string name="notification_morning_time">Morning Azkar Time</string>
+    <string name="notification_evening_time">Evening Azkar Time</string>
+    <string name="notification_time_to_read">Time to read your Azkar</string>
+
+    <!-- Dynamic notification content -->
+    <string name="morning_azkar_short">Morning Azkar</string>
+    <string name="evening_azkar_short">Evening Azkar</string>
+
+    <!-- Not started -->
+    <string name="notification_title_not_started">%1$s - Not Started</string>
+    <string name="notification_text_not_started">You haven\'t started yet. Begin now!</string>
+    <string name="notification_big_text_not_started">📿 It\'s time for your %1$s!\n\nYou have %2$d azkar to complete. Don\'t miss this blessed time.</string>
+
+    <!-- In progress -->
+    <string name="notification_title_progress">%1$s (%2$d/%3$d)</string>
+    <string name="notification_text_remaining">%1$d azkar remaining</string>
+    <string name="notification_big_text_continue">✨ Great progress! You\'ve completed %1$d out of %2$d azkar.\n\nOnly %3$d remaining. Continue your %4$s now!</string>
+
+    <!-- Default/Just started -->
+    <string name="notification_title_default">%1$s</string>
+    <string name="notification_big_text_default">📿 Time to read your %1$s. May Allah accept it from you.</string>
+
+    <!-- Notification Permission -->
+    <string name="permission_required_title">Notifications Required</string>
+    <string name="permission_rationale_message">This app depends on notifications to remind you of zikr time. Without notifications, the app cannot function properly.</string>
+    <string name="permission_permanently_denied_message">Notifications are currently disabled. To use this app, please enable notifications in your device settings.\n\nGo to: Settings → Apps → Zikr Time → Notifications → Allow notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="exit_app">Exit App</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="notifications_disabled_title">Notifications Disabled</string>
+    <string name="notifications_disabled_message">This app requires notifications to remind you of zikr times. Please enable notifications to continue.</string>
+    <string name="continue_text">Continue</string>
+
+    <!-- Stats strings -->
+    <string name="stats_title">Your Progress</string>
+    <string name="morning_stats">Morning Zikr</string>
+    <string name="evening_stats">Evening Zikr</string>
+    <string name="total_completed">Completed</string>
+    <string name="current_streak">Streak</string>
+    <string name="best_streak">Best</string>
+    <string name="days_forgotten">Forgotten</string>
+
+    <!-- Share App strings -->
+    <string name="share_app">Share App</string>
+    <string name="share_message">📿 Discover ZikrTime - The perfect app for Morning and Evening Azkar!\n\nNever miss your daily zikr with automatic prayer-time based reminders.\n\nDownload now: https://play.google.com/store/apps/details?id=com.shaghb.zikrtime</string>
+</resources>
+
+

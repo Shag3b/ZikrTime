@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Disable translation warnings since we have Arabic and English covered -->
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="ExtraTranslation" severity="ignore" />
+
+    <!-- We properly handle permissions at runtime -->
+    <issue id="PermissionImpliesUnsupportedChromeOsHardware" severity="ignore" />
+
+    <!-- We use Activity not Fragment, this check is not applicable -->
+    <issue id="InvalidFragmentVersionForActivityResult" severity="ignore" />
+
+    <!-- Our minSdk is 26, we handle version checks properly -->
+    <issue id="ObsoleteSdkInt" severity="ignore" />
+
+    <!-- We use proper AlarmManager APIs -->
+    <issue id="ScheduleExactAlarm" severity="warning" />
+
+    <!-- Allow proper RTL support -->
+    <issue id="RtlHardcoded" severity="warning" />
+    <issue id="RtlSymmetry" severity="warning" />
+</lint>
+
+

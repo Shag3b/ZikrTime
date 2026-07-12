@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">وقت الذكر</string>
+
+    <string name="home_title">وقت الذكر</string>
+    <string name="morning_button">أذكار الصباح</string>
+    <string name="evening_button">أذكار المساء</string>
+
+    <string name="done_title">تم بحمد الله</string>
+    <string name="done_message">لقد أتممت أذكار الصباح. تقبل الله منك</string>
+    <string name="app_ready">التطبيق متاح الآن للاستخدام العادي</string>
+    <string name="back_home">العودة للرئيسية</string>
+
+    <string name="home_welcome">مرحباً بك في تطبيق وقت الذكر</string>
+    <string name="home_description">تطبيق لمساعدتك على قراءة أذكار الصباح والمساء في أوقاتها المحددة</string>
+    <string name="morning_azkar_time">أذكار الصباح من الفجر إلى الظهر، وأذكار المساء من العصر إلى المغرب</string>
+    <string name="fajr_dhuhr">الفجر - الظهر</string>
+    <string name="asr_maghrib">العصر - المغرب</string>
+
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="repeat_left">المتبقي:</string>
+    <string name="total_count">العدد الكلي:</string>
+    <string name="show_meaning">المعنى</string>
+    <string name="show_franco">فرانكو</string>
+    <plurals name="wait">
+        <item quantity="zero">انتظر</item>
+        <item quantity="one">انتظر ثانية واحدة</item>
+        <item quantity="two">انتظر ثانيتين</item>
+        <item quantity="few">انتظر %1$d ثوانٍ</item>
+        <item quantity="many">انتظر %1$d ثانية</item>
+        <item quantity="other">انتظر %1$d ثانية</item>
+    </plurals>
+
+    <string name="zikr_counter">الذكر %1$d من %2$d</string>
+    <string name="decrease_counter">عد التكرار -</string>
+
+    <string name="choose_language">اختر اللغة</string>
+
+    <!-- Notification strings -->
+    <string name="notification_incomplete">لم يتم إكمال الأذكار بعد</string>
+    <string name="notification_reminder">حان وقت قراءة الأذكار</string>
+    <string name="notification_morning_time">وقت أذكار الصباح</string>
+    <string name="notification_evening_time">وقت أذكار المساء</string>
+    <string name="notification_time_to_read">حان وقت قراءة أذكارك</string>
+
+    <!-- Dynamic notification content -->
+    <string name="morning_azkar_short">أذكار الصباح</string>
+    <string name="evening_azkar_short">أذكار المساء</string>
+
+    <!-- Not started -->
+    <string name="notification_title_not_started">%1$s - لم تبدأ بعد</string>
+    <string name="notification_text_not_started">لم تبدأ بعد. ابدأ الآن!</string>
+    <string name="notification_big_text_not_started">📿 حان وقت %1$s!\n\nلديك %2$d ذكر للقراءة. لا تفوت هذا الوقت المبارك.</string>
+
+    <!-- In progress -->
+    <string name="notification_title_progress">%1$s (%2$d/%3$d)</string>
+    <string name="notification_text_remaining">%1$d ذكر متبقي</string>
+    <string name="notification_big_text_continue">✨ تقدم ممتاز! أكملت %1$d من %2$d ذكر.\n\nتبقى %3$d فقط. أكمل %4$s الآن!</string>
+
+    <!-- Default/Just started -->
+    <string name="notification_title_default">%1$s</string>
+    <string name="notification_big_text_default">📿 حان وقت قراءة %1$s. تقبل الله منك.</string>
+
+    <!-- Notification Permission -->
+    <string name="permission_required_title">الإشعارات مطلوبة</string>
+    <string name="permission_rationale_message">يعتمد هذا التطبيق على الإشعارات لتذكيرك بوقت الذكر. بدون الإشعارات، لن يعمل التطبيق بشكل صحيح.</string>
+    <string name="permission_permanently_denied_message">الإشعارات معطلة حالياً. لاستخدام هذا التطبيق، يرجى تفعيل الإشعارات في إعدادات الجهاز.\n\nانتقل إلى: الإعدادات ← التطبيقات ← وقت الذكر ← الإشعارات ← السماح بالإشعارات</string>
+    <string name="enable_notifications">تفعيل الإشعارات</string>
+    <string name="exit_app">إغلاق التطبيق</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="notifications_disabled_title">الإشعارات معطلة</string>
+    <string name="notifications_disabled_message">يتطلب هذا التطبيق الإشعارات لتذكيرك بأوقات الذكر. يرجى تفعيل الإشعارات للمتابعة.</string>
+    <string name="continue_text">متابعة</string>
+
+    <!-- Stats strings -->
+    <string name="stats_title">تقدمك</string>
+    <string name="morning_stats">أذكار الصباح</string>
+    <string name="evening_stats">أذكار المساء</string>
+    <string name="total_completed">مكتمل</string>
+    <string name="current_streak">متتالية</string>
+    <string name="best_streak">أفضل</string>
+    <string name="days_forgotten">منسية</string>
+
+    <!-- Share App strings -->
+    <string name="share_app">شارك التطبيق</string>
+    <string name="share_message">📿 اكتشف تطبيق وقت الذكر - التطبيق المثالي لأذكار الصباح والمساء!\n\nلن تفوتك أذكارك اليومية مع التذكيرات التلقائية بناءً على أوقات الصلاة.\n\nحمّل الآن: https://play.google.com/store/apps/details?id=com.shaghb.zikrtime</string>
+</resources>
