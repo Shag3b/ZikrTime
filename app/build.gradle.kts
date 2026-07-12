@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.shaghb.zikrtime"
+    namespace = "com.shag3b.zikrtime"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.shaghb.zikrtime"
+        applicationId = "com.shag3b.zikrtime"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

@@ -10,7 +10,7 @@
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-26%20(Android%208.0)-blue)](https://developer.android.com/tools/releases/platforms)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-*A clean, offline-first Android app that reminds and guides Muslims through their daily Morning and Evening Azkar — on time, every day.*
+*A clean, offline Android app that reminds and guides Muslims through their daily Morning and Evening Azkar — on time, every day.*
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ## 📸 Overview
 
-ZikrTime is a lightweight, privacy-first Android application built with **Jetpack Compose** that helps Muslims maintain their daily Azkar habit. The app uses real prayer times calculated from the device's GPS location to determine the exact window for Morning (Fajr → Asr) and Evening (Asr → Midnight) Azkar — no internet required after first location fetch.
+ZikrTime is a lightweight, privacy Android application built with **Jetpack Compose** that helps Muslims maintain their daily Azkar habit. The app uses real prayer times calculated from the device's GPS location to determine the exact window for Morning (Fajr → Asr) and Evening (Asr → Midnight) Azkar — no internet required after first location fetch.
 
 ---
 
@@ -56,7 +56,7 @@ ZikrTime/
 │   │   ├── assets/
 │   │   │   ├── morning.json          # Morning Azkar data (Arabic, Franco, meaning)
 │   │   │   └── evening.json          # Evening Azkar data
-│   │   ├── java/com/shaghb/zikrtime/
+│   │   ├── java/com/Shag3b/zikrtime/
 │   │   │   ├── data/
 │   │   │   │   ├── Zikr.kt           # Data model
 │   │   │   │   └── ZikrRepository.kt # Loads Azkar from JSON assets
@@ -144,7 +144,7 @@ Azkar text (Arabic, Transliterated/Franco, and English translations) are stored 
 ### Build & Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shaghb/ZikrTime.git
+   git clone https://github.com/Shag3b/ZikrTime.git
    ```
 2. Open the project in Android Studio.
 3. Sync Gradle and run the application on your device or emulator.
@@ -163,13 +163,6 @@ Contributions are welcome! If you'd like to improve ZikrTime:
 
 ---
 
-## 📬 Contact
-
-**Shaghb**
-[![GitHub](https://img.shields.io/badge/GitHub-shaghb-181717?logo=github)](https://github.com/shaghb)
-
----
-
 ## 📝 License
 
 ```
@@ -180,8 +173,7 @@ Copyright (c) 2026 Shaghb
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+to use, copy, modify, merge, publish, and distribute the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
